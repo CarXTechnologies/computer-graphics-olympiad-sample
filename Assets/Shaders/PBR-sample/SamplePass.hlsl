@@ -4,7 +4,7 @@
 #include "SampleData.hlsl"
 #include "SampleInput.hlsl"
 
-#define CALLBACK_COLOR half4(255.0 / 255.0, 0.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0)
+#define FALLBACK_COLOR half4(255.0 / 255.0, 0.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0)
 
 TEXTURE2D(_BaseMap);
 SAMPLER(sampler_BaseMap);
